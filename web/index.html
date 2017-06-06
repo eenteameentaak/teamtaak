@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+         <script type="text/javascript" src="script.js"></script>
+        <title> PLEK-vis </title>
+    </head>
+    
+    <body>
+        
+    <div id = "titel-gedeelte">
+        <form action = "addpatientservlet" method="post">
+        <table>
+            <tr>
+                <td></td>
+                <td id = "titel"> PLEK - Patienten </td>
+                <td> <img src="https://www.amc.nl/upload_mm/5/2/6/16322_fullimage_amc_logo_official.png"/> </td>
+            </tr>
+        </table>    
+    </div>
+    
+    <div id ="hoofd-gedeelte">
+        <table id = "patientgegevens">
+            <thead>
+                <tr>
+                    <th> Patientgegevens </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Patientnummer</td>
+                    <td>Geslacht</td>
+                </tr>
+                <tr>
+                    <td><input id = "patientnr" name = "patientnr" type = "number" class = "focus"/></td>
+                    <td><input id = "man" type ="radio" name = "geslacht" value = "man">Man
+                        <input id = "vrouw" type ="radio" name = "geslacht" value = "vrouw">Vrouw</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>Achternaam</td>
+                    <td>Voornaam</td>
+                    <td>Voorletters</td>
+                </tr>
+                <tr>
+                    <td><input id = "achternaam" name = "achternaam" type = "text" class = "focus"/></td>
+                    <td><input id = "voornaam" name = "voornaam" type = "text" class = "focus"/></td>
+                    <td><input id = "voorletters" name = "voorletters" type = "text" class = "focus"/></td>
+                </tr>
+                <tr>
+                    <td>Geboortedatum (DD-MM-YYYY)</td>
+                </tr>
+                <tr>
+                    <td><input class = "geboortedatum" name = "geboortedag" type = "text" />-<input class = "geboortedatum" name = "geboortemaand" type = "text" />-<input class = "geboortedatum" name = "geboortejaar" type = "text" /></td>
+                </tr>
+                <tr>
+                    <td>Adres</td>
+                    <td>Woonplaats</td>
+                    <td>Postcode (0000 AA)</td>
+                </tr>
+                <tr>
+                    <td><input id = "adres" name = "adres" type = "text" class = "focus"/></td>
+                    <td><input id = "woonplaats" name = "woonplaats" type = "text" class = "focus"/></td>
+                    <td><input id = "postcode" name = "postcode" type = "text" class = "focus"/></td>
+                </tr>
+                <tr>
+                    <td>Familiaire aandoening</td>
+                    <td>Overleden</td>
+                </tr>
+                <tr>
+                    <td> <input id = "familie" name = "familie" type = "text" class = "focus"/></td>
+                    <td> <input id = "overleden" name = "overleden" type ="checkbox"/></td>
+                </tr>
+                <tr>
+                    <td><button>Opslaan</button></td>
+                </tr>
+            </tbody>
+        </table>
+        </form>
+    </div>
+    <div>
+        <p id = "naam">© Modiŝa van Teunenbroek, 10709096 </p> 
+    </div>    
+    </body>
+</html> 

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/opdracht2">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" logAbandoned="true" maxActive="8" maxIdle="4" name="jdbc/MyPlekDB" password="plek_Teunenbroek" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:sqlserver://ms-sql-1044" username="app_Teunenbroek"/>
+</Context>

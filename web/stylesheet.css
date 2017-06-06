@@ -1,0 +1,67 @@
+body {
+	background-color: lightsteelblue;
+}
+
+table{
+    width: 100%;
+}
+
+#titel{
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    color: crimson;
+    text-decoration: underline;
+    text-align: center;
+}
+
+img{
+    text-align: right;
+}
+
+#patientgegevens {
+    width: 100%;
+    font-family: Verdana;
+    font-size: 15px;
+    border: 4px solid crimson;
+    border-radius: 10px;
+}
+
+thead{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+.focus:focus{
+    background-color: lightgray;
+}
+
+.geboortedatum{
+    width: 30px;
+}
+
+.geboortedatum:focus{
+    background-color: lightgray;
+}
+
+#adres{
+    width: 350px;
+}
+
+#familie{
+    width: 350px;
+    height: 100px;
+    
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+#naam{
+    text-align: left;
+    font-size: 12px;
+    color: slategrey;
+}
